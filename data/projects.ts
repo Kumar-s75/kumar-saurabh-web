@@ -1,0 +1,222 @@
+export interface Project {
+  id: number;
+  Name: string;
+  Description: string;
+  bgimage: string;
+  bgDarkImage: string;
+  LinkGit: string;
+  category: "Frontend" | "FullStack" | "Backend"|"Mern" ;
+  Technologies?: string[];
+}
+
+export const projectsData: Project[] = [
+   // UI/UX Projects
+  {
+    id: 26,
+    Name: "Lfx Issue Tracker",
+    Description: "Tracks Issues on the Github repos of organizations under LFX Programme",
+    bgimage: "/assets/",
+    bgDarkImage: "/assets/",
+    LinkGit: "",
+    category: "FullStack",
+    Technologies: ["Nextjs", "Tailwind",""],
+  },
+  {
+    id: 25,
+    Name: "Data Alchemist",
+    Description: "provides clean CSV and .Xlsx files",
+    bgimage: "/assets/",
+    bgDarkImage: "/assets/",
+    LinkGit: "",
+    category: "FullStack",
+    Technologies: ["Nextjs", "Tailwind","HuggingFaceApi"],
+  },
+  {
+    id: 24,
+    Name: "Finance Dashboard",
+    Description: "This is a Finance Dashboard,tracking Expenses and savings.",
+    bgimage: "/assets/",
+    bgDarkImage: "/assets/",
+    LinkGit: "",
+    category: "Mern",
+    Technologies: ["Reactjs", "Nodejs","TailwindCss"],
+  },
+  {
+    id: 23,
+    Name: "Pointer Landing Page",
+    Description: "This is Landing page website i build for ",
+    bgimage: "/assets/",
+    bgDarkImage: "/assets/",
+    LinkGit: "https://pointer-landing-page-theta.vercel.app/",
+    category: "Frontend",
+    Technologies: ["Nextjs", "Tailwind","Radix UI"],
+  },
+  {
+    id: 22,
+    Name: " Rental App",
+    Description: "This is Rent based platform ",
+    bgimage: "/assets/",
+    bgDarkImage: "/assets/",
+    LinkGit: "",
+    category: "FullStack",
+    Technologies: ["Nextjs", "Tailwind","Aws Ec2"],
+  },
+  {
+    id: 21,
+    Name: "Dashboard",
+    Description: "Dashboard Based Project",
+    bgimage: "/assets/",
+    bgDarkImage: "/assets/",
+    LinkGit: "https://dashboard-three-blond-59.vercel.app/",
+    category: "Frontend",
+    Technologies: ["Nextjs", "Tailwind"],
+  },
+  {
+    id: 1,
+    Name: "Agentstack",
+    Description: "Design mockup for AI agent startup",
+    bgimage: "/assets/",
+    bgDarkImage: "/assets/",
+    LinkGit: "https://agentstack.vercel.app",
+    category: "Frontend",
+    Technologies: ["Nextjs", "Tailwind","Radix Ui"],
+
+  },
+ 
+  {
+    id: 3,
+    Name: "Learning Management",
+    Description: "Learning management app",
+    bgimage: "/assets/",
+    bgDarkImage: "/assets/",
+    LinkGit: "https://github.com/Kumar-s75/learning-management",
+    category: "FullStack",
+    Technologies: ["Nextjs", "Tailwind",]
+  },
+
+  // {
+  //   id: 7,
+  //   Name: "Funky Tweets",
+  //   Description: "Twitter-inspired UI",
+  //   bgimage: "/assets/funkytweets.png",
+  //   bgDarkImage: "/assets/funkytweets.png",
+  //   LinkGit: "https://funky-tweet-vibes.vercel.app/",
+  //   category: "uiux",
+  //   Technologies: ["React", "Tailwind"],
+  // },
+  
+  // Full-Stack Projects
+  // {
+  //   id: 10,
+  //   Name: "Roastume",
+  //   Description: "Platform for users to post their resumes and get roasted",
+  //   bgimage: "/assets/raostume.png",
+  //   bgDarkImage: "/assets/raostume.png",
+  //   LinkGit: "https://roastume.fun",
+  //   category: "fullstack",
+  //   Technologies: ["Nextjs", "Tailwind" , "Supabase"],
+  // },
+  // {
+  //   id: 11,
+  //   Name: "Pixel Brain IQ",
+  //   Description: "AI quiz and brain-training app",
+  //   bgimage: "/assets/pixelbrain.png",
+  //   bgDarkImage: "/assets/pixelbrain.png",
+  //   LinkGit: "https://iq-quiz-kappa.vercel.app/",
+  //   category: "fullstack",
+  //   Technologies: ["Nextjs", "Tailwind" , "Supabase"],
+  // },
+  // // Freelance Projects
+  // {
+  //   id: 12,
+  //   Name: "Fast & Fab",
+  //   bgimage: "/assets/fastfab.png",
+  //   bgDarkImage: "/assets/fastfab.png",
+  //   LinkGit: "https://fastandfab.in/",
+  //   Description: "Fast Fashion website",
+  //   category: "freelance",
+  //   Technologies: ["Nextjs", "Tailwind" , "Nodejs" , "Supabase"],
+  // },
+  // {
+  //   id: 13,
+  //   Name: "Beyond Dreams",
+  //   bgimage: "/assets/beyonddream.png",
+  //   bgDarkImage: "/assets/beyonddream.png",
+  //   LinkGit: "https://www.beyonddream.in/user",
+  //   Description: "Tech events and conferences website",
+  //   category: "freelance",
+  //   Technologies: ["Nextjs", "Tailwind" , "AWS" , "Nodejs"],
+  // },
+  // {
+  //   id: 14,
+  //   Name: "E-Legalify",
+  //   bgimage: "/assets/elegalify.png",
+  //   bgDarkImage: "/assets/elegalify.png",
+  //   LinkGit: "https://freelance-1-one.vercel.app/",
+  //   Description: "Legal website for lawyers",
+  //   category: "freelance",
+  //   Technologies: ["Nextjs", "Tailwind"],
+  // },
+  // {
+  //   id: 15,
+  //   Name: "Memansa",
+  //   bgimage: "/assets/memansa.png",
+  //   bgDarkImage: "/assets/memansa.png",
+  //   LinkGit: "https://memansa.vercel.app/",
+  //   Description: "Accessories design website",
+  //   category: "freelance",
+  //   Technologies: ["Reactjs", "Tailwind"],
+  // },
+
+  // {
+  //   id: 16,
+  //   Name: "LetsGrowEsports",
+  //   bgimage: "/assets/letsgrowesprots.png",
+  //   bgDarkImage: "/assets/letsgrowesprots.png",
+  //   LinkGit: "https://letsgrowesports.vercel.app/",
+  //   Description: "Esports platform",
+  //   category: "freelance",
+  //   Technologies: ["Nextjs", "Tailwind" , "AWS" , "Nodejs"],
+  // },
+  // // General Projects
+  // {
+  //   id: 17,
+  //   Name: "TaskFlow",
+  //   Description: "Task Management App",
+  //   bgimage: "/assets/Taskflow.png",
+  //   bgDarkImage: "/assets/Taskflow.png",
+  //   LinkGit: "https://task-flow-x-seven.vercel.app/",
+  //   category: "general",
+  //   Technologies: ["React", "Tailwind"],
+  // },
+  // {
+  //   id: 18,
+  //   Name: "EthSignals",
+  //   Description: "Ethereum Signals",
+  //   bgimage: "/assets/ethsignals.png",
+  //   bgDarkImage: "/assets/ethsignals.png",
+  //   LinkGit: "https://crypto-analysis-phi.vercel.app/",
+  //   category: "general",
+  //   Technologies: ["React", "Tailwind", "GSAP"],
+  // },
+  // {
+  //   id: 19,
+  //   Name: "Movie Ticket App",
+  //   Description: "Dummy Movie ticket Booking",
+  //   bgimage: "/assets/bookmovie.png",
+  //   bgDarkImage: "/assets/bookmovie.png",
+  //   LinkGit: "https://book-movie-seven.vercel.app/",
+  //   category: "general",
+  //   Technologies: ["HTML", "CSS", "JavaScript"],
+  // },
+  // {
+  //   id: 20,
+  //   Name: "Flappy Bird",
+  //   Description: "Bring Physics to Web",
+  //   bgimage: "/assets/pixelbrain.png",
+  //   bgDarkImage: "/assets/pixelbrain.png",
+  //   LinkGit: "https://flappy-bird-chi-topaz.vercel.app/",
+  //   category: "general",
+  //   Technologies: ["HTML", "CSS", "TypeScript"],
+  // },
+];

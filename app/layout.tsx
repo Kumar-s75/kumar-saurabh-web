@@ -19,8 +19,8 @@ const figtree = Figtree({
 });
 
 export const metadata: Metadata = {
-  title: "Mohammad Harish",
-  description: "Founder : InfiniteStudioX",
+  title: "Kumar Saurabh",
+  description: "Full Stack Developer",
 };
 
 export default function RootLayout({
